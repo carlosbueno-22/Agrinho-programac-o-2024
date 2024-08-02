@@ -12,27 +12,24 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: linear-gradient(#4CAF50, #3E8E41);
     color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: #fff 3px solid;
 }
 
 header h1 {
-    text-align: left;
     margin: 0;
-    font-size: 24px;
-    padding: 0 20px;
 }
 
 .flag {
-    background: url('flag.png') no-repeat;
-    width: 50px;
-    height: 50px;
-    float: right;
-    margin-top: -40px;
-    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    background: url('flag.png') no-repeat center;
+    background-size: contain;
 }
 
 .producers {
@@ -44,43 +41,34 @@ header h1 {
     color: #4CAF50;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
 .producer {
-    background: #fff;
-    margin: 20px;
+    background: #6fbf73;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }
 
-.avatar {
-    background: #FFD700;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-right: 20px;
+.producer h3 {
+    margin: 0 0 10px 0;
+    color: #fff;
 }
 
-.info {
-    flex: 1;
-}
-
-.info h3 {
-    margin: 0;
-    color: #333;
-}
-
-.info p {
+.producer p {
     margin: 5px 0;
-    color: #666;
+    color: #f0f0f0;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
-    background: #4CAF50;
+    padding: 10px;
+    background: linear-gradient(#4CAF50, #3E8E41);
     color: #fff;
-    margin-top: 20px;
     border-top: #fff 3px solid;
 }
