@@ -1,38 +1,86 @@
-  <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #fff 3px solid;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        .producer {
-            background: #fff;
-            margin: 20px 0;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .producer h2 {
-            margin-top: 0;
-        }
-        .producer p {
-            margin: 0;
-        }
-    </style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #fff 3px solid;
+}
+
+header h1 {
+    text-align: left;
+    margin: 0;
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+.flag {
+    background: url('flag.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.producers {
+    margin: 20px 0;
+}
+
+.producers h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.producer {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    background: #FFD700;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h3 {
+    margin: 0;
+    color: #333;
+}
+
+.info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4CAF50;
+    color: #fff;
+    margin-top: 20px;
+    border-top: #fff 3px solid;
+}
