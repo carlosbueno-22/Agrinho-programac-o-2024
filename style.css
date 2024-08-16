@@ -1,74 +1,115 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    font-family: "Open Sans", sans-serif;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
-header {
-    background: linear-gradient(#4CAF50, #3E8E41);
-    color: #fff;
-    padding: 20px;
+.cabeçalho {
+    background-color: #300301;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    border-bottom: #fff 3px solid;
+    padding: 24px 0;
 }
 
-header h1 {
-    margin: 0;
+.cabeçalho-título {
+    color: #C72A2C;
+    font-size: 54px;
 }
 
-.flag {
-    width: 40px;
-    height: 40px;
-    background: url('flag.png') no-repeat center;
-    background-size: contain;
+.cabeçalho-lista {
+    color: white;
+    font-size: 22px;
 }
 
-.producers {
-    margin: 20px 0;
+.cabeçalho-logotipo {
+    width: 120px;
 }
 
-.producers h2 {
+.cabeçalho-lista-item1 {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.cabeçalho-lista-item2 {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.nossa-escola {
+    background-image: linear-gradient(#300301, #960903);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+}
+
+.nossa-escola-título {
+    font-size: 32px;
+    padding: 24px;
+}
+
+.nossa-escola-texto1 {
+    font-size: 26px;
+    padding: 24px;
+}
+
+.nossa-escola-texto2 {
+    font-size: 26px;
+    padding: 24px;
+}
+
+.nossa-escola-div {
+    width: 40%;
+}
+
+.nossa-escola-imagem {
+    width: 30%;
+}
+
+.equipe {
+    background-color: #cd5f05db;
+    color: white;
+}
+
+.professor{
+    width: 120px;
+}
+
+.ícone {
+    width: 24px;
+}
+
+.equipe-div {
     text-align: center;
-    color: #4CAF50;
+    padding: 16px 0;
 }
 
-.grid {
+.equipe-título{
+    text-align: center;
+}
+
+.equipe-div-todos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.producer {
-    background: #6fbf73;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #fff;
+.rodapé{
+    background-color: #300301;
+    color: #960903;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    align-items: center;
 }
 
-.producer h3 {
-    margin: 0 0 10px 0;
-    color: #fff;
+.rodapé-imagem{
+    width: 70px;
 }
 
-.producer p {
-    margin: 5px 0;
-    color: #f0f0f0;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background: linear-gradient(#4CAF50, #3E8E41);
-    color: #fff;
-    border-top: #fff 3px solid;
+.rodapé-ícone{
+    width: 30px;
 }
