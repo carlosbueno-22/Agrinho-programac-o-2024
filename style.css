@@ -5,7 +5,7 @@
 }
 
 .cabeçalho {
-    background-color: #300301;
+    background-color: #52C257;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,12 +13,12 @@
 }
 
 .cabeçalho-título {
-    color: #C72A2C;
+    color: #52C257;
     font-size: 54px;
 }
 
 .cabeçalho-lista {
-    color: white;
+    color: #52C257;
     font-size: 22px;
 }
 
@@ -37,8 +37,8 @@
 }
 
 .nossa-escola {
-    background-image: linear-gradient(#300301, #960903);
-    color: white;
+    background-image: linear-gradient(#52C257, #52C257);
+    color: #52C257;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,8 +70,8 @@
 }
 
 .equipe {
-    background-color: #cd5f05db;
-    color: white;
+    background-color: #52C257;
+    color: #52C257;
 }
 
 .professor{
@@ -97,8 +97,8 @@
 }
 
 .rodapé{
-    background-color: #300301;
-    color: #960903;
+    background-color: #52C257;
+    color: #52C257;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
